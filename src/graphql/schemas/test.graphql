@@ -1,0 +1,19 @@
+type Test {
+  id: ID!
+  name: String
+  description: String
+}
+
+type Query {
+  test(id: ID!): Test
+  tests: [Test!]!
+}
+
+type Mutation {
+  createTest(data: CreateData): Test!
+}
+
+input CreateData {
+  name: String!
+  description: String!
+}

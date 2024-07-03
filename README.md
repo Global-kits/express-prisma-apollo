@@ -25,8 +25,9 @@ $ npm install
 .env
 
 ```bash
-$ cp .env.example .env 
+$ cp .env.example .env
 ```
+
 After that you have to fill env requirements.
 
 ## Migrate
@@ -44,30 +45,30 @@ development
 ```bash
 $ npm run dev
 ```
+
 ## Run with docker
 
 Run docker with build file.
 
 > **_NOTE:_** If you want to connect with your local database. You have to change DATABASE_URL like this.
+
 ```bash
 $ DATABASE_URL="mysql://youruser:yourpassword@host.docker.internal:3306/yourdatabase"
 
 ```
 
-
 ```bash
 $ sh docker.sh
 ```
+
 ## Let me know if you have any issues
+
 Please write [here](https://github.com/Global-kits/express-prisma-rest/issues).
 
 ## Authors
 
 - [@kaungkhantzaw](https://www.github.com/kaungkhantzawdev)
 
-
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-
-
