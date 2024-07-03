@@ -6,9 +6,9 @@
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
-## Express.js with prisma
+## Express.js with prisma, apollo graphql
 
-[Express](https://github.com/expressjs/express) framework TypeScript starter repository. Prisma ORM and RESTful API.
+[Express](https://github.com/expressjs/express) framework TypeScript starter repository. Prisma ORM, Apollo graphql and RESTful API.
 
 ### Node Version - 20.11.1
 
