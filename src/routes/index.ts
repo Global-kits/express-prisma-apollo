@@ -3,6 +3,6 @@ import testRoute from "./test.route";
 
 const router = Router();
 
-router.use('/api', testRoute)
+router.use("/api", testRoute);
 
 export default router;
